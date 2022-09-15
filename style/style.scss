@@ -47,6 +47,8 @@ body, html{
     @include flexCenter(80vh);
     flex-direction: column;
 
+    margin-top: 2%;
+    
     font-family: sans-serif;
     
     background-image: url(https://c4.wallpaperflare.com/wallpaper/800/659/696/ezio-assassin-s-creed-fan-art-4k-wallpaper-preview.jpg);
@@ -77,7 +79,6 @@ body, html{
     @extend .home;
     margin-top: 2%;
 
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-pB-CrVIzB-1VdA3PeysUpPmgqf0KHzKFnw&usqp=CAU);
-    background-size: 80% 80%;
-    background-position: 50%;
+    background-image: url(https://www.teahub.io/photos/full/192-1922242_background-assassins-creed-brotherhood.jpg);
 }
+
