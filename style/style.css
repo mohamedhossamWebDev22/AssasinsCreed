@@ -25,7 +25,7 @@ body, html {
   border-radius: 50%;
 }
 
-.home {
+.home, .history {
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -35,16 +35,24 @@ body, html {
   background-image: url(https://c4.wallpaperflare.com/wallpaper/800/659/696/ezio-assassin-s-creed-fan-art-4k-wallpaper-preview.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  background-attachment: fixed;
 }
-.home h1::before {
+.home h1::before, .history h1::before {
   content: '"';
   padding: 10px;
 }
-.home h1::after {
+.home h1::after, .history h1::after {
   content: '"';
   padding: 10px;
 }
-.home h3::before {
+.home h3::before, .history h3::before {
   content: "-";
   padding: 5px;
+}
+
+.history {
+  margin-top: 2%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-pB-CrVIzB-1VdA3PeysUpPmgqf0KHzKFnw&usqp=CAU);
+  background-size: 80% 80%;
+  background-position: 50%;
 }/*# sourceMappingURL=style.css.map */

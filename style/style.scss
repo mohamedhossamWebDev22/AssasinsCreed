@@ -52,6 +52,7 @@ body, html{
     background-image: url(https://c4.wallpaperflare.com/wallpaper/800/659/696/ezio-assassin-s-creed-fan-art-4k-wallpaper-preview.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-attachment: fixed;
 
     h1{
         &::before{
@@ -70,4 +71,13 @@ body, html{
             padding: 5px;
         }
     }
+}
+
+.history{
+    @extend .home;
+    margin-top: 2%;
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-pB-CrVIzB-1VdA3PeysUpPmgqf0KHzKFnw&usqp=CAU);
+    background-size: 80% 80%;
+    background-position: 50%;
 }
