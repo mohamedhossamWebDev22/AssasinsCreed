@@ -1,0 +1,73 @@
+$colorNav: rgb(0, 110, 255);
+$colorBg: rgb(14, 13, 13);
+
+@mixin flexCenter($num) {
+    height: $num;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body, html{
+    scroll-behavior: smooth;
+
+    color: white    ;
+    background-color: $colorBg;
+}
+
+.nav{
+    display: flex;
+
+    background-color: $colorNav;
+
+    justify-content: space-around;
+    align-items: center;
+
+    i{
+        font-size: 40px;
+
+        color: white;
+
+        cursor: pointer;
+        &:hover{
+            font-size: 45px;
+        }
+    }
+    img{
+        width: 90px;
+        height: 80px;
+
+        margin: 10px;
+        border-radius: 50%;
+    }
+}
+
+.home{
+    @include flexCenter(80vh);
+    flex-direction: column;
+
+    font-family: sans-serif;
+    
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/800/659/696/ezio-assassin-s-creed-fan-art-4k-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    h1{
+        &::before{
+            content: '"';
+            padding: 10px;
+        }
+        &::after{
+            content: '"';
+            padding: 10px;
+        }
+    }
+
+    h3{
+        &::before{
+            content: '-';
+            padding: 5px;
+        }
+    }
+}
