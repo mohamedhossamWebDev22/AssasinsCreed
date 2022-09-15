@@ -1,0 +1,27 @@
+ac1: https://upload.wikimedia.org/wikipedia/ar/0/0f/Assassin%27s_Creed_cover.jpg
+
+ac2:https://upload.wikimedia.org/wikipedia/ar/a/a9/Assassins_Creed_2_Box_ar.JPG
+
+ac brotherHood:
+https://upload.wikimedia.org/wikipedia/ar/2/2a/Assassins_Creed_brotherhood_cover.jpg
+
+ac revalations: https://upload.wikimedia.org/wikipedia/ar/e/e8/Assassins_Creed_Revelations_ar.jpg
+
+ac 3: https://upload.wikimedia.org/wikipedia/ar/thumb/a/a3/%D8%A7%D9%84%D8%BA%D9%84%D8%A7%D9%81_%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D9%85%D9%8A_%D9%84%D9%84%D8%B9%D8%A8%D8%A9_%D8%A3%D8%B3%D8%A7%D8%B3%D9%86%D8%B2_%D9%83%D8%B1%D9%8A%D8%AF_3_%D9%81%D9%8A_%D8%A7%D9%84%D8%B4%D8%B1%D9%82_%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7.jpeg/220px-%D8%A7%D9%84%D8%BA%D9%84%D8%A7%D9%81_%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D9%85%D9%8A_%D9%84%D9%84%D8%B9%D8%A8%D8%A9_%D8%A3%D8%B3%D8%A7%D8%B3%D9%86%D8%B2_%D9%83%D8%B1%D9%8A%D8%AF_3_%D9%81%D9%8A_%D8%A7%D9%84%D8%B4%D8%B1%D9%82_%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7.jpeg
+
+ac 4:https://upload.wikimedia.org/wikipedia/ar/thumb/7/76/%D8%BA%D9%84%D8%A7%D9%81_%D9%84%D8%B9%D8%A8%D8%A9_Assassin%27s_Creed_Black_Flag_%D9%81%D9%8A_%D8%A7%D9%84%D8%B4%D8%B1%D9%82_%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7.jpeg/220px-%D8%BA%D9%84%D8%A7%D9%81_%D9%84%D8%B9%D8%A8%D8%A9_Assassin%27s_Creed_Black_Flag_%D9%81%D9%8A_%D8%A7%D9%84%D8%B4%D8%B1%D9%82_%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7.jpeg
+
+ac rouge: https://upload.wikimedia.org/wikipedia/ar/4/49/%D8%A7%D9%84%D8%BA%D9%84%D8%A7%D9%81_%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D9%85%D9%8A_%D9%84%D9%84%D8%B9%D8%A8%D8%A9_Assassin%27s_Creed_Rogue_%D9%81%D9%8A_%D8%A7%D9%84%D8%B4%D8%B1%D9%82_%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7.jpeg
+
+ac unity: https://upload.wikimedia.org/wikipedia/ar/4/43/%D8%A7%D9%84%D8%BA%D9%84%D8%A7%D9%81_%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D9%85%D9%89_%D9%84%D9%84%D8%B9%D8%A8%D8%A9_Assassin%27s_Creed_Unity_%D9%81%D9%89_%D8%A7%D9%84%D8%B4%D8%B1%D9%82_%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7.jpeg
+
+ac syndicate: https://upload.wikimedia.org/wikipedia/ar/0/03/ACSyndicate.jpg
+
+=======================================
+ac origins: https://upload.wikimedia.org/wikipedia/ar/4/4a/Assassin%27s_Creed_Origins_Cover_Art.png
+
+ac odyssey: https://upload.wikimedia.org/wikipedia/ar/thumb/4/43/Assassin%27s_Creed_Odyssey_PS4_Saudi_cover.jpg/262px-Assassin%27s_Creed_Odyssey_PS4_Saudi_cover.jpg
+
+ac valhalla: https://upload.wikimedia.org/wikipedia/ar/thumb/f/f8/ACValhalla.jpg/251px-ACValhalla.jpg
+
+ac mirage: https://upload.wikimedia.org/wikipedia/ar/thumb/f/f0/%D8%BA%D9%84%D8%A7%D9%81_%D8%A3%D8%B3%D8%A7%D8%B3%D9%86%D8%B2_%D9%83%D8%B1%D9%8A%D8%AF_%D9%85%D9%8A%D8%B1%D8%A7%D8%AC.jpeg/252px-%D8%BA%D9%84%D8%A7%D9%81_%D8%A3%D8%B3%D8%A7%D8%B3%D9%86%D8%B2_%D9%83%D8%B1%D9%8A%D8%AF_%D9%85%D9%8A%D8%B1%D8%A7%D8%AC.jpeg
