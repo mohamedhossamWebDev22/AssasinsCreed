@@ -4,15 +4,27 @@ body, html {
   background-color: rgb(14, 13, 13);
 }
 
+#top {
+  right: 20px;
+  bottom: 10px;
+  position: fixed;
+  font-size: 30px;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(0, 110, 255);
+}
+
 .nav {
   display: flex;
-  background-color: rgb(0, 110, 255);
-  justify-content: space-around;
+  background-color: rgba(0, 110, 255, 0);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  justify-content: space-evenly;
   align-items: center;
 }
 .nav i {
   font-size: 40px;
-  color: white;
   cursor: pointer;
 }
 .nav i:hover {
@@ -25,7 +37,7 @@ body, html {
   border-radius: 50%;
 }
 
-.home, .history {
+.home, .history, .games {
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -38,20 +50,20 @@ body, html {
   background-size: 100% 100%;
   background-attachment: fixed;
 }
-.home h1::before, .history h1::before {
+.home h1::before, .history h1::before, .games h1::before {
   content: '"';
   padding: 10px;
 }
-.home h1::after, .history h1::after {
+.home h1::after, .history h1::after, .games h1::after {
   content: '"';
   padding: 10px;
 }
-.home h3::before, .history h3::before {
+.home h3::before, .history h3::before, .games h3::before {
   content: "-";
   padding: 5px;
 }
 
-.history {
+.history, .games {
   margin-top: 2%;
   background-image: url(https://www.teahub.io/photos/full/192-1922242_background-assassins-creed-brotherhood.jpg);
 }/*# sourceMappingURL=style.css.map */

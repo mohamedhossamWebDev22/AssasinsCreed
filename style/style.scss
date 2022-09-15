@@ -16,18 +16,34 @@ body, html{
     background-color: $colorBg;
 }
 
+#top{
+    right: 20px;
+    bottom: 10px;
+
+    position: fixed;
+
+    font-size: 30px;
+
+    border-radius: 50%;
+
+    color: white;
+    background-color: $colorNav;
+}
+
 .nav{
     display: flex;
 
-    background-color: $colorNav;
+    background-color: rgba(0, 110, 255, 0);
 
-    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    justify-content: space-evenly;
     align-items: center;
 
     i{
         font-size: 40px;
-
-        color: white;
 
         cursor: pointer;
         &:hover{
@@ -82,3 +98,7 @@ body, html{
     background-image: url(https://www.teahub.io/photos/full/192-1922242_background-assassins-creed-brotherhood.jpg);
 }
 
+.games{
+    //hi
+    @extend .history;
+}
