@@ -22,6 +22,24 @@ a {
   color: white;
 }
 
+.menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  z-index: 99999999999;
+  position: fixed;
+  background-color: rgb(0, 110, 255);
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.menu .fa-regular {
+  font-size: 30px;
+  cursor: pointer;
+}
+
 .nav {
   display: flex;
   background-color: rgba(0, 110, 255, 0);
@@ -31,11 +49,11 @@ a {
   justify-content: space-evenly;
   align-items: center;
 }
-.nav i {
+.nav .fa-solid {
   font-size: 40px;
   cursor: pointer;
 }
-.nav i:hover {
+.nav .fa-solid:hover {
   font-size: 45px;
 }
 .nav img {
@@ -56,7 +74,7 @@ a {
   background-image: url(https://c4.wallpaperflare.com/wallpaper/800/659/696/ezio-assassin-s-creed-fan-art-4k-wallpaper-preview.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 .home h1::before, .history h1::before, .games h1::before {
   content: '"';
@@ -73,10 +91,12 @@ a {
 
 .history, .games {
   margin-top: 2%;
+  color: rgb(0, 110, 255);
   background-image: url(https://www.teahub.io/photos/full/192-1922242_background-assassins-creed-brotherhood.jpg);
 }
 
 .games {
+  color: white;
   background-image: url(https://cdn.wallpapersafari.com/85/74/xvJbNt.jpg);
 }
 .games button {
@@ -90,7 +110,7 @@ a {
 }
 
 .about {
-  height: 60vh;
+  height: 76vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,12 +125,43 @@ a {
 .about h1 {
   font-size: 30px;
 }
+.about h3 {
+  font-size: 20px;
+  font-family: monospace;
+}
 .about .social {
   display: flex;
   justify-content: space-evenly;
+  padding: 10px 10px;
   width: 100%;
   font-size: 25px;
 }
 .about .social .fa-brands {
   font-size: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 13px;
+  }
+  .history h1, .games h1 {
+    color: rgb(0, 110, 255);
+  }
+  .about {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav i {
+    font-size: 20px;
+  }
+  .nav img {
+    width: 70px;
+  }
 }/*# sourceMappingURL=style.css.map */

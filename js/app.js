@@ -32,6 +32,23 @@ function profile() {
     }
 }
 
+class Menu{
+    constructor (menuBtn, menu) {
+        this.menuBtn = document.getElementById('menu');
+        this.menu = document.getElementById('M');
+        this.closeBtn = document.getElementById('closeM');
+    }
+}
+
+const menuObj = new Menu();
+
+menuObj.menuBtn.onclick = function (){
+    menuObj.menu.style.display = 'flex';
+}
+menuObj.closeBtn.onclick = function (){
+    menuObj.menu.style.display = 'none';
+}
+
 window.onload = function (){
     profile();
 }
