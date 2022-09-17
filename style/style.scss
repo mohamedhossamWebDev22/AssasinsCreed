@@ -1,4 +1,4 @@
-$colorNav: rgb(0, 110, 255);
+$color1: rgb(0, 110, 255);
 $colorBg: rgb(14, 13, 13);
 
 @mixin flexCenter($num) {
@@ -17,17 +17,26 @@ body, html{
 }
 
 #top{
-    right: 20px;
-    bottom: 10px;
+    right: 30px;
+    bottom: 20px;
 
     position: fixed;
+    display: none;
 
-    font-size: 30px;
+    font-size: 40px;
 
     border-radius: 50%;
 
     color: white;
-    background-color: $colorNav;
+    background: $color1;
+
+    a{
+        color: white;
+    }
+}
+
+a{
+    color: white;
 }
 
 .nav{
@@ -99,6 +108,54 @@ body, html{
 }
 
 .games{
-    //hi
     @extend .history;
+
+    background-image: url(https://cdn.wallpapersafari.com/85/74/xvJbNt.jpg);
+
+    button{
+        font-size: 30px;
+        font-family: sans-serif;
+
+        background: $color1;
+        color: white;
+        
+        border-radius: 50px;
+        border: 1px solid black;
+
+        padding: 10px;
+    }
+} 
+
+.about{
+    @include flexCenter(60vh);
+
+    flex-direction: column;
+
+    font-family: sans-serif;
+
+    -webkit-box-shadow: 0px 0px 33px 1px rgba(224,217,224,1);
+    -moz-box-shadow: 0px 0px 33px 1px rgba(224,217,224,1);
+    box-shadow: 0px 0px 33px 1px rgba(224,217,224,1);
+
+    margin-top: 5%;
+    img{
+        border-radius: 50%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .social{
+        display: flex;
+        justify-content: space-evenly;
+
+        width: 100%;
+
+        font-size: 25px;
+
+        .fa-brands{
+            font-size: 40px;
+        }
+    }
 }
