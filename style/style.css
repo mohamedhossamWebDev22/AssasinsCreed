@@ -12,7 +12,7 @@ body, html {
   font-size: 40px;
   border-radius: 50%;
   color: white;
-  background: rgb(0, 110, 255);
+  background: #006eff;
 }
 #top a {
   color: white;
@@ -31,7 +31,7 @@ a {
   width: 100%;
   z-index: 99999999999;
   position: fixed;
-  background-color: rgb(0, 110, 255);
+  background-color: #006eff;
   font-size: 20px;
   font-family: sans-serif;
 }
@@ -91,7 +91,7 @@ a {
 
 .history, .games {
   margin-top: 2%;
-  color: rgb(0, 110, 255);
+  color: #006eff;
   background-image: url(https://www.teahub.io/photos/full/192-1922242_background-assassins-creed-brotherhood.jpg);
 }
 
@@ -102,7 +102,7 @@ a {
 .games button {
   font-size: 30px;
   font-family: sans-serif;
-  background: rgb(0, 110, 255);
+  background: #006eff;
   color: white;
   border-radius: 50px;
   border: 1px solid black;
@@ -150,7 +150,7 @@ a {
     font-size: 13px;
   }
   .history h1, .games h1 {
-    color: rgb(0, 110, 255);
+    color: #006eff;
   }
   .about {
     height: 95vh;
